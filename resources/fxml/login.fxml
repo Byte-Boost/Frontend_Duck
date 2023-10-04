@@ -4,11 +4,114 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
 <AnchorPane maxHeight="500.0" maxWidth="425.0" minHeight="500.0" minWidth="425.0" prefHeight="500.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.LoginController">
    <children>
-      <ImageView fitHeight="177.0" fitWidth="166.0" layoutX="137.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ebebeb" height="133.0" stroke="TRANSPARENT" strokeType="INSIDE" width="425.0" />
+      <Group layoutX="-1039.0" layoutY="-2.0">
+         <children>
+            <Group layoutY="1.0">
+               <children>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="24.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="16.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="7.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <Group layoutX="-417.0">
+                     <children>
+                        <ImageView fitHeight="32.0" fitWidth="630.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/quack.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="24.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/quack.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="16.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/quack.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="7.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/quack.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Group>
+               </children>
+            </Group>
+            <Group layoutX="1248.0">
+               <children>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="24.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="16.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="7.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group layoutX="832.0" layoutY="1.0">
+               <children>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="24.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="16.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="7.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+         </children>
+      </Group>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="391.0" layoutY="109.0" stroke="TRANSPARENT" strokeType="INSIDE" width="425.0" />
+      <ImageView fitHeight="145.0" fitWidth="131.0" layoutX="156.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/ducklogoround.png" />
          </image></ImageView>
@@ -20,85 +123,12 @@
          </font></Button>
       <Button id="register-btn" fx:id="btn_register" layoutX="168.0" layoutY="414.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="104.0" styleClass="btn" stylesheets="@../css/main.css" text="Registre" />
       <Label layoutX="142.0" layoutY="390.0" text="Ainda não possui uma conta?" textFill="#000000a9" />
-      <Label layoutX="168.0" layoutY="192.0" prefWidth="106.0" stylesheets="@../css/main.css" text="DUCK">
+      <Label layoutX="172.0" layoutY="192.0" prefHeight="52.0" prefWidth="95.0" stylesheets="@../css/main.css" text="DUCK">
          <font>
-            <Font name="JetBrains Mono ExtraBold" size="43.0" />
+            <Font name="JetBrains Mono ExtraBold" size="38.0" />
          </font>
       </Label>
-      <Group layoutX="-66.0" layoutY="453.0">
-         <children>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="5.845592498779297" layoutY="49.238006591796875" pickOnBounds="true" preserveRatio="true" rotate="23.2">
-               <image>
-                  <Image url="@../images/quack.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="5.845592498779297" layoutY="34.238006591796875" pickOnBounds="true" preserveRatio="true" rotate="23.2">
-               <image>
-                  <Image url="@../images/quack.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="5.845592498779297" layoutY="19.238006591796875" pickOnBounds="true" preserveRatio="true" rotate="23.2">
-               <image>
-                  <Image url="@../images/quack.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="5.845592498779297" layoutY="4.238006591796875" pickOnBounds="true" preserveRatio="true" rotate="23.2">
-               <image>
-                  <Image url="@../images/quack.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="31.499507904052734" pickOnBounds="true" preserveRatio="true" rotate="24.0">
-               <image>
-                  <Image url="@../images/quack.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="184.8455924987793" layoutY="80.23800659179688" pickOnBounds="true" preserveRatio="true" rotate="23.2">
-               <image>
-                  <Image url="@../images/quack.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="209.8455924987793" layoutY="77.23800659179688" pickOnBounds="true" preserveRatio="true" rotate="23.2">
-               <image>
-                  <Image url="@../images/quack.png" />
-               </image>
-            </ImageView>
-         </children>
-      </Group>
-      <Group layoutX="282.0" layoutY="-9.0">
-         <children>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-20.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" rotate="23.2">
-               <image>
-                  <Image url="@../images/quack.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-26.0" pickOnBounds="true" preserveRatio="true" rotate="23.2">
-               <image>
-                  <Image url="@../images/quack.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-26.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true" rotate="23.2">
-               <image>
-                  <Image url="@../images/quack.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-16.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" rotate="23.2">
-               <image>
-                  <Image url="@../images/quack.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-20.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" rotate="23.2">
-               <image>
-                  <Image url="@../images/quack.png" />
-               </image>
-            </ImageView>
-         </children>
-      </Group>
       <Label layoutX="128.0" layoutY="325.0" />
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="83.0" layoutY="-36.0" pickOnBounds="true" preserveRatio="true" rotate="23.2">
-         <image>
-            <Image url="@../images/quack.png" />
-         </image>
-      </ImageView>
 
    </children>
 </AnchorPane>
