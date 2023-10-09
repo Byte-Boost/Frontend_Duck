@@ -32,7 +32,8 @@
                </image>
             </ImageView>
          </children></Group>
-      <Circle fill="#f4f4f4" layoutX="210.0" layoutY="121.0" radius="71.0" stroke="#ffffff00" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="377.0" layoutY="124.0" stroke="WHITE" strokeType="INSIDE" width="417.0" />
+      <Circle fill="WHITE" layoutX="210.0" layoutY="121.0" radius="71.0" stroke="#ffffff00" strokeType="INSIDE" />
       <TextField fx:id="tf_username" layoutX="80.0" layoutY="260.0" prefHeight="25.0" prefWidth="260.0" promptText="Insira um email" styleClass="textfield" stylesheets="@../css/main.css" />
       <PasswordField fx:id="pf_password" layoutX="80.0" layoutY="300.0" prefHeight="25.0" prefWidth="260.0" promptText="Insira uma senha" styleClass="textfield" stylesheets="@../css/main.css" />
       <PasswordField fx:id="pf_confirm" layoutX="80.0" layoutY="340.0" prefHeight="25.0" prefWidth="260.0" promptText="Confirme sua senha" styleClass="textfield" stylesheets="@../css/main.css" />
