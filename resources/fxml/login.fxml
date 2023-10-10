@@ -79,7 +79,7 @@
          </font></Button>
       <Button id="register-btn" fx:id="btn_register" layoutX="168.0" layoutY="414.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="104.0" styleClass="btn" stylesheets="@../css/main.css" text="Registre" />
       <Label layoutX="142.0" layoutY="390.0" text="Ainda não possui uma conta?" textFill="#000000a9" />
-      <Label layoutX="172.0" layoutY="192.0" prefHeight="52.0" prefWidth="95.0" stylesheets="@../css/main.css" text="DUCK">
+      <Label layoutX="172.0" layoutY="192.0" prefHeight="52.0" prefWidth="95.0" styleClass="title" stylesheets="@../css/main.css" text="DUCK">
          <font>
             <Font name="JetBrains Mono ExtraBold" size="38.0" />
          </font>
