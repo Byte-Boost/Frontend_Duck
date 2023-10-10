@@ -31,6 +31,11 @@ buttons{
 -fx-font-size: 15;
 }
 
+.smallbtn{
+-fx-background-color: #15ACDA;
+-fx-font-size: 12;
+}
+
 .btn:pressed{
 -fx-background-color:white;
 -fx-text-fill:black;
