@@ -66,20 +66,20 @@
             </Group>
          </children>
       </Group>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="391.0" layoutY="109.0" stroke="TRANSPARENT" strokeType="INSIDE" width="425.0" />
-      <ImageView fitHeight="145.0" fitWidth="131.0" layoutX="156.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="390.0" layoutY="110.0" stroke="TRANSPARENT" strokeType="INSIDE" width="425.0" />
+      <ImageView fitHeight="135.0" fitWidth="135.0" layoutX="145.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/ducklogoround.png" />
          </image></ImageView>
-      <TextField fx:id="tf_username" layoutX="128.0" layoutY="250.0" prefHeight="32.0" prefWidth="183.0" promptText="Username" styleClass="textfield" stylesheets="@../css/main.css" />
-      <PasswordField fx:id="pf_password" layoutX="128.0" layoutY="293.0" prefHeight="32.0" prefWidth="183.0" promptText="Password" styleClass="textfield" stylesheets="@../css/main.css" />
-      <Button id="login_btn" fx:id="btn_login" layoutX="168.0" layoutY="343.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="104.0" styleClass="btn" stylesheets="@../css/main.css" text="Login">
+      <TextField fx:id="tf_username" layoutX="120.0" layoutY="250.0" prefHeight="32.0" prefWidth="185.0" promptText="Username" styleClass="textfield" stylesheets="@../css/main.css" />
+      <PasswordField fx:id="pf_password" layoutX="120.0" layoutY="293.0" prefHeight="32.0" prefWidth="185.0" promptText="Password" styleClass="textfield" stylesheets="@../css/main.css" />
+      <Button id="login_btn" fx:id="btn_login" layoutX="160.0" layoutY="343.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="105.0" styleClass="btn" stylesheets="@../css/main.css" text="Login">
          <font>
             <Font name="JetBrains Mono Regular" size="12.0" />
          </font></Button>
-      <Button id="register-btn" fx:id="btn_register" layoutX="168.0" layoutY="414.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="104.0" styleClass="btn" stylesheets="@../css/main.css" text="Registre" />
-      <Label layoutX="142.0" layoutY="390.0" text="Ainda não possui uma conta?" textFill="#000000a9" />
-      <Label layoutX="172.0" layoutY="192.0" prefHeight="52.0" prefWidth="95.0" styleClass="title" stylesheets="@../css/main.css" text="DUCK">
+      <Button id="register-btn" fx:id="btn_register" layoutX="160.0" layoutY="414.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="105.0" styleClass="btn" stylesheets="@../css/main.css" text="Sign up" />
+      <Label layoutX="142.0" layoutY="390.0" text="Don't have an account yet?" textFill="#000000a9" />
+      <Label layoutX="165.0" layoutY="192.0" prefHeight="52.0" prefWidth="95.0" styleClass="title" stylesheets="@../css/main.css" text="DUCK">
          <font>
             <Font name="JetBrains Mono ExtraBold" size="38.0" />
          </font>

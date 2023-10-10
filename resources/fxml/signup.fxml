@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.shape.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="417.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.SignUpController">
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.SignUpController">
    <children>
       <Group>
          <children>
@@ -32,19 +37,19 @@
                </image>
             </ImageView>
          </children></Group>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="377.0" layoutY="124.0" stroke="WHITE" strokeType="INSIDE" width="417.0" />
-      <Circle fill="WHITE" layoutX="210.0" layoutY="121.0" radius="71.0" stroke="#ffffff00" strokeType="INSIDE" />
-      <TextField fx:id="tf_username" layoutX="80.0" layoutY="260.0" prefHeight="25.0" prefWidth="260.0" promptText="Insira um email" styleClass="textfield" stylesheets="@../css/main.css" />
-      <PasswordField fx:id="pf_password" layoutX="80.0" layoutY="300.0" prefHeight="25.0" prefWidth="260.0" promptText="Insira uma senha" styleClass="textfield" stylesheets="@../css/main.css" />
-      <PasswordField fx:id="pf_confirm" layoutX="80.0" layoutY="340.0" prefHeight="25.0" prefWidth="260.0" promptText="Confirme sua senha" styleClass="textfield" stylesheets="@../css/main.css" />
-      <Button id="voltar_btn" fx:id="btn_back" layoutX="80.0" layoutY="414.0" mnemonicParsing="false" styleClass="btn" stylesheets="@../css/main.css" text="Voltar" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="377.0" layoutY="124.0" stroke="WHITE" strokeType="INSIDE" width="425.0" />
+      <Circle centerX="72.0" centerY="72.0" fill="WHITE" layoutX="140.0" layoutY="50.0" radius="72.0" stroke="#ffffff00" strokeType="INSIDE" />
+      <TextField fx:id="tf_username" layoutX="80.0" layoutY="260.0" prefHeight="25.0" prefWidth="260.0" promptText="Insert an email" styleClass="textfield" stylesheets="@../css/main.css" />
+      <PasswordField fx:id="pf_password" layoutX="80.0" layoutY="300.0" prefHeight="25.0" prefWidth="260.0" promptText="Insert a password" styleClass="textfield" stylesheets="@../css/main.css" />
+      <PasswordField fx:id="pf_confirm" layoutX="80.0" layoutY="340.0" prefHeight="25.0" prefWidth="260.0" promptText="Confirm your password" styleClass="textfield" stylesheets="@../css/main.css" />
+      <Button id="voltar_btn" fx:id="btn_back" layoutX="80.0" layoutY="414.0" mnemonicParsing="false" styleClass="btn" stylesheets="@../css/main.css" text="Back" />
       <Button id="signup_btn" fx:id="btn_register" layoutX="275.0" layoutY="414.0" mnemonicParsing="false" styleClass="btn" stylesheets="@../css/main.css" text="Sign Up" />
       <Label fx:id="lb_notfilled" layoutX="79.0" layoutY="275.0" textFill="RED" />
       <Label layoutX="166.0" layoutY="198.0" text="DUCK">
          <font>
             <Font name="JetBrains Mono ExtraBold" size="38.0" />
          </font></Label>
-      <ImageView fitHeight="132.0" fitWidth="152.0" layoutX="145.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="135.0" fitWidth="135.0" layoutX="145.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/ducklogoround.png" />
          </image>

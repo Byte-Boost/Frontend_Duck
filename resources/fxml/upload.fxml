@@ -78,9 +78,9 @@
             </ImageView>
          </graphic>
       </Label>
-      <Button fx:id="btn_upload" layoutX="395.0" layoutY="177.0" mnemonicParsing="false" styleClass="btn" stylesheets="@../css/main.css" text="Load File" />
+      <Button fx:id="btn_upload" layoutX="395.0" layoutY="177.0" mnemonicParsing="false" prefHeight="32.0" styleClass="btn" stylesheets="@../css/main.css" text="Load File" />
       <Button fx:id="btn_next" layoutX="385.0" layoutY="290.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="95.0" styleClass="btn" stylesheets="@../css/main.css" text="Next" />
-      <Label fx:id="selectedFileField" layoutX="26.0" layoutY="175.0" prefHeight="25.0" prefWidth="350.0" style="-fx-background-color: #fafafa; -fx-padding: 5;" styleClass="textfield" stylesheets="@../css/main.css">
+      <Label fx:id="selectedFileField" layoutX="25.0" layoutY="175.0" prefHeight="30.0" prefWidth="350.0" style="-fx-background-color: #fafafa; -fx-padding: 5;" styleClass="textfield" stylesheets="@../css/main.css">
          <font>
             <Font name="System Bold Italic" size="16.0" />
          </font>
