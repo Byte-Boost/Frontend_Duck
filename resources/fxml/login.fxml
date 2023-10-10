@@ -1,65 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.shape.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="500.0" maxWidth="425.0" minHeight="500.0" minWidth="425.0" prefHeight="500.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.LoginController">
+<AnchorPane maxHeight="500.0" maxWidth="425.0" minHeight="500.0" minWidth="425.0" prefHeight="500.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.LoginController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ebebeb" height="133.0" stroke="TRANSPARENT" strokeType="INSIDE" width="425.0" />
       <Group layoutX="-1039.0" layoutY="-2.0">
          <children>
-            <Group layoutY="1.0">
-               <children>
-                  <ImageView fitHeight="32.0" fitWidth="630.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../images/quack.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="24.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../images/quack.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="16.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../images/quack.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="7.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../images/quack.png" />
-                     </image>
-                  </ImageView>
-                  <Group layoutX="-417.0">
-                     <children>
-                        <ImageView fitHeight="32.0" fitWidth="630.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../images/quack.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="24.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../images/quack.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="16.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../images/quack.png" />
-                           </image>
-                        </ImageView>
-                        <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="7.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../images/quack.png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </Group>
-               </children>
-            </Group>
             <Group layoutX="1248.0">
                <children>
                   <ImageView fitHeight="32.0" fitWidth="630.0" pickOnBounds="true" preserveRatio="true">
