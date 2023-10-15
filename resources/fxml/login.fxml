@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.Group?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.PasswordField?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Rectangle?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="500.0" maxWidth="425.0" minHeight="500.0" minWidth="425.0" prefHeight="500.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.LoginController">
+<AnchorPane maxHeight="500.0" maxWidth="425.0" minHeight="500.0" minWidth="425.0" prefHeight="500.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.LoginController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ebebeb" height="133.0" stroke="TRANSPARENT" strokeType="INSIDE" width="425.0" />
       <Group layoutX="-1039.0" layoutY="-2.0">
@@ -66,14 +62,15 @@
             </Group>
          </children>
       </Group>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="390.0" layoutY="110.0" stroke="TRANSPARENT" strokeType="INSIDE" width="425.0" />
+      <Circle fill="WHITE" layoutX="212.0" layoutY="118.0" radius="72.0" stroke="#ffffff00" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="390.0" layoutX="2.0" layoutY="110.0" stroke="TRANSPARENT" strokeType="INSIDE" width="425.0" />
       <ImageView fitHeight="135.0" fitWidth="135.0" layoutX="145.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/ducklogoround.png" />
          </image></ImageView>
       <TextField fx:id="tf_username" layoutX="120.0" layoutY="250.0" prefHeight="32.0" prefWidth="185.0" promptText="Username" styleClass="textfield" stylesheets="@../css/main.css" />
       <PasswordField fx:id="pf_password" layoutX="120.0" layoutY="293.0" prefHeight="32.0" prefWidth="185.0" promptText="Password" styleClass="textfield" stylesheets="@../css/main.css" />
-      <Button id="login_btn" fx:id="btn_login" layoutX="160.0" layoutY="343.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="105.0" styleClass="btn" stylesheets="@../css/main.css" text="Login">
+      <Button id="login_btn" fx:id="btn_login" layoutX="160.0" layoutY="352.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="105.0" styleClass="btn" stylesheets="@../css/main.css" text="Login">
          <font>
             <Font name="JetBrains Mono Regular" size="12.0" />
          </font></Button>
@@ -84,7 +81,7 @@
             <Font name="JetBrains Mono ExtraBold" size="38.0" />
          </font>
       </Label>
-      <Label layoutX="128.0" layoutY="325.0" />
+      <Label fx:id="error402" layoutX="131.0" layoutY="325.0" prefHeight="17.0" prefWidth="164.0" textFill="RED" />
 
    </children>
 </AnchorPane>

@@ -14,9 +14,7 @@ buttons{
 
 */
 
-.title{
--fx-font-family: url(resources/fonts/JetBrainsMono-ExtraBold.ttf);
-}
+
 .textfield{
 -fx-background-radius: 5px;
 -fx-background-color:white;
