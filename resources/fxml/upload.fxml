@@ -1,24 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import java.lang.String?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: #e3e3e3;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.UploadController">
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: #e3e3e3;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.UploadController">
    <children>
-      <Button fx:id="btn_upload" layoutX="391.0" layoutY="90.0" mnemonicParsing="false" text="Load File" />
-      <Button fx:id="btn_next" layoutX="391.0" layoutY="296.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="95.0" text="Next" />
-      <Label fx:id="selectedFileField" layoutX="30.0" layoutY="85.0" prefHeight="25.0" prefWidth="350.0" style="-fx-background-color: #fafafa; -fx-padding: 5;">
+      <Group autoSizeChildren="false">
+         <children>
+            <Group autoSizeChildren="false" layoutX="230.0">
+               <children>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="7.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="14.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="21.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group layoutX="-186.0">
+               <children>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="7.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="14.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="21.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/quack.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+         </children>
+      </Group>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="162.0" layoutX="110.0" layoutY="-30.0" rotate="-53.2" stroke="TRANSPARENT" strokeType="INSIDE" width="289.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="234.0" layoutY="116.0" stroke="TRANSPARENT" strokeType="INSIDE" width="500.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="30.0" layoutY="39.0" prefHeight="95.0" prefWidth="274.0" stylesheets="@../css/main.css" text="UPLOAD" textAlignment="RIGHT">
+         <font>
+            <Font name="JetBrains Mono ExtraBold" size="43.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="95.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/ducklogoround.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Button fx:id="btn_upload" layoutX="395.0" layoutY="177.0" mnemonicParsing="false" prefHeight="32.0" styleClass="btn" stylesheets="@../css/main.css" text="Load File" />
+      <Button fx:id="btn_next" layoutX="385.0" layoutY="290.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="95.0" styleClass="btn" stylesheets="@../css/main.css" text="Next" />
+      <Label fx:id="selectedFileField" layoutX="25.0" layoutY="175.0" prefHeight="30.0" prefWidth="350.0" style="-fx-background-color: #fafafa; -fx-padding: 5;" styleClass="textfield" stylesheets="@../css/main.css">
          <font>
             <Font name="System Bold Italic" size="16.0" />
          </font>
       </Label>
-      <ImageView fitHeight="120.0" fitWidth="124.0" layoutX="188.0" layoutY="152.0">
-         <image>
-            <Image url="@../images/ducklog.png" />
-         </image>
-      </ImageView>
-      <Button fx:id="btn_back" layoutX="30.0" layoutY="296.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="95.0" text="Back" />
+      <Button fx:id="btn_back" layoutX="20.0" layoutY="290.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="95.0" styleClass="btn" stylesheets="@../css/main.css" text="Back" />
+      <Button fx:id="btn_registry" layoutX="25.0" layoutY="145.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="60.0" stylesheets="@../css/main.css" text="Registry">
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="smallbtn" />
+         </styleClass>
+      </Button>
    </children>
 </AnchorPane>
