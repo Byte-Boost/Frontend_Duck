@@ -85,13 +85,14 @@
       <Label fx:id="error402" layoutX="131.0" layoutY="325.0" prefHeight="17.0" prefWidth="164.0" textFill="RED" />
       <ImageView fx:id="login_eye" fitHeight="18.0" fitWidth="28.0" layoutX="306.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images/eye-opened.png" />
+            <Image url="@../images/eye-closed.png" />
          </image>
          <effect>
             <ColorAdjust brightness="0.75" />
          </effect>
       </ImageView>
-      <Button layoutX="306.0" layoutY="301.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="18.0" prefWidth="28.0" style="-fx-background-color: transparent;" text="Button" textFill="TRANSPARENT" />
+      <ToggleButton fx:id="btn_password" layoutX="306.0" layoutY="301.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="18.0" prefWidth="28.0" style="-fx-background-color: transparent;" text="ToggleButton" />
+      <Label fx:id="shownPassword" layoutX="127.0" layoutY="296.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="176.0" style="-fx-background-color: white;" text="Show Password" />
 
    </children>
 </AnchorPane>
