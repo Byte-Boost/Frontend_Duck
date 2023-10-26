@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.ConfirmationPageController">
+   <children>
+      <Group>
+         <children>
+            <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="20.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Frontend_Duck/resources/images/quack.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="630.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Frontend_Duck/resources/images/quack.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="40.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Frontend_Duck/resources/images/quack.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="60.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Frontend_Duck/resources/images/quack.png" />
+               </image>
+            </ImageView>
+         </children></Group>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="377.0" layoutX="3.0" layoutY="113.0" stroke="WHITE" strokeType="INSIDE" width="425.0" />
+      <Circle centerX="72.0" centerY="72.0" fill="WHITE" layoutX="140.0" layoutY="50.0" radius="72.0" stroke="#ffffff00" strokeType="INSIDE" />
+      <Button id="voltar_btn" fx:id="btn_back" layoutX="80.0" layoutY="414.0" mnemonicParsing="false" styleClass="btn" stylesheets="@../../../../../../../../Frontend_Duck/resources/css/main.css" text="Back" />
+      <Button id="signup_btn" fx:id="btn_send" layoutX="302.0" layoutY="413.0" mnemonicParsing="false" styleClass="btn" stylesheets="@../../../../../../../../Frontend_Duck/resources/css/main.css" text="Send" />
+      <Label fx:id="lb_notfilled" layoutX="80.0" layoutY="381.0" prefHeight="17.0" prefWidth="260.0" textFill="RED" />
+      <Label layoutX="166.0" layoutY="198.0" text="DUCK">
+         <font>
+            <Font name="JetBrains Mono ExtraBold" size="38.0" />
+         </font></Label>
+      <ImageView fitHeight="135.0" fitWidth="135.0" layoutX="145.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Frontend_Duck/resources/images/ducklogoround.png" />
+         </image>
+      </ImageView>
+      <Group layoutX="-413.0" layoutY="8.0">
+         <children>
+            <ImageView fitHeight="32.0" fitWidth="630.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Frontend_Duck/resources/images/quack.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="16.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Frontend_Duck/resources/images/quack.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="36.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Frontend_Duck/resources/images/quack.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="630.0" layoutX="56.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Frontend_Duck/resources/images/quack.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <Label layoutX="159.0" layoutY="293.0" text="Confirmation Code" />
+      <TextField fx:id="tf_code" layoutX="138.0" layoutY="318.0" />
+   </children>
+</AnchorPane>
