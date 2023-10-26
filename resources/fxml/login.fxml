@@ -2,6 +2,7 @@
 
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
@@ -82,6 +83,16 @@
          </font>
       </Label>
       <Label fx:id="error402" layoutX="131.0" layoutY="325.0" prefHeight="17.0" prefWidth="164.0" textFill="RED" />
+      <ImageView fx:id="login_eye" fitHeight="18.0" fitWidth="28.0" layoutX="306.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/eye-closed.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="0.75" />
+         </effect>
+      </ImageView>
+      <ToggleButton fx:id="btn_password" layoutX="306.0" layoutY="301.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="18.0" prefWidth="28.0" style="-fx-background-color: transparent;" text="ToggleButton" />
+      <Label fx:id="shownPassword" layoutX="127.0" layoutY="296.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="176.0" style="-fx-background-color: white;" text="Show Password" />
       <Label layoutX="128.0" layoutY="325.0" />
       <Button fx:id="btn_forget" layoutX="134.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="158.0" styleClass="forgetpassword" stylesheets="@../css/main.css" text="Forgot your password?" textFill="#000000aa" />
 
