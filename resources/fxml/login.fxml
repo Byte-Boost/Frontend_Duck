@@ -8,7 +8,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="500.0" maxWidth="425.0" minHeight="500.0" minWidth="425.0" prefHeight="500.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.LoginController">
+<AnchorPane maxHeight="500.0" maxWidth="425.0" minHeight="500.0" minWidth="425.0" prefHeight="500.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.LoginController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ebebeb" height="133.0" stroke="TRANSPARENT" strokeType="INSIDE" width="425.0" />
       <Group layoutX="-1039.0" layoutY="-2.0">
@@ -71,12 +71,12 @@
          </image></ImageView>
       <TextField fx:id="tf_username" layoutX="120.0" layoutY="250.0" prefHeight="32.0" prefWidth="185.0" promptText="Username" styleClass="textfield" stylesheets="@../css/main.css" />
       <PasswordField fx:id="pf_password" layoutX="120.0" layoutY="293.0" prefHeight="32.0" prefWidth="185.0" promptText="Password" styleClass="textfield" stylesheets="@../css/main.css" />
-      <Button id="login_btn" fx:id="btn_login" layoutX="160.0" layoutY="368.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="105.0" styleClass="btn" stylesheets="@../css/main.css" text="Login">
+      <Button id="login_btn" fx:id="btn_login" layoutX="160.0" layoutY="383.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="105.0" styleClass="btn" stylesheets="@../css/main.css" text="Login">
          <font>
             <Font name="JetBrains Mono Regular" size="12.0" />
          </font></Button>
-      <Button id="register-btn" fx:id="btn_register" layoutX="160.0" layoutY="426.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="105.0" styleClass="btn" stylesheets="@../css/main.css" text="Sign up" />
-      <Label layoutX="142.0" layoutY="408.0" text="Don't have an account yet?" textFill="#000000a8" />
+      <Button id="register-btn" fx:id="btn_register" layoutX="160.0" layoutY="441.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="105.0" styleClass="btn" stylesheets="@../css/main.css" text="Sign up" />
+      <Label layoutX="142.0" layoutY="423.0" text="Don't have an account yet?" textFill="#000000a8" />
       <Label layoutX="165.0" layoutY="192.0" prefHeight="52.0" prefWidth="95.0" styleClass="title" stylesheets="@../css/main.css" text="DUCK">
          <font>
             <Font name="JetBrains Mono ExtraBold" size="38.0" />
@@ -94,6 +94,6 @@
       <ToggleButton fx:id="btn_password" layoutX="306.0" layoutY="301.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="18.0" prefWidth="28.0" style="-fx-background-color: transparent;" text="ToggleButton" />
       <Label fx:id="shownPassword" layoutX="127.0" layoutY="296.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="176.0" style="-fx-background-color: white;" text="Show Password" />
       <Label layoutX="128.0" layoutY="325.0" />
-      <Button fx:id="btn_forget" layoutX="134.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="158.0" styleClass="forgetpassword" stylesheets="@../css/main.css" text="Forgot your password?" textFill="#000000aa" />
+      <Button fx:id="btn_forget" layoutX="134.0" layoutY="350.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="158.0" styleClass="forgetpassword" stylesheets="@../css/main.css" text="Forgot your password?" textFill="#000000aa" />
    </children>
 </AnchorPane>
