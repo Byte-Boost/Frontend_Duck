@@ -110,7 +110,7 @@
          </font></Button>
       <TextField fx:id="tf_question" alignment="TOP_LEFT" layoutX="25.0" layoutY="340.0" prefHeight="46.0" prefWidth="385.0" style="-fx-border-radius: 14; -fx-background-radius: 14;" styleClass="textfield" stylesheets="@../css/main.css" />
       <Button id="enviar_btn" fx:id="btn_send" layoutX="420.0" layoutY="339.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="75.0" styleClass="btn" stylesheets="@../css/main.css" text="Send" />
-      <ScrollPane fx:id="" focusTraversable="false" layoutX="25.0" layoutY="63.0" prefHeight="270.0" prefWidth="470.0">
+      <ScrollPane fx:id="" focusTraversable="false" layoutX="25.0" layoutY="63.0" prefHeight="270.0" prefWidth="470.0" stylesheets="@../css/main.css">
          <content>
             <VBox fx:id="chat" alignment="TOP_CENTER" focusTraversable="true" prefHeight="268.0" prefWidth="468.0" style="-fx-border-radius: 1000; -fx-background-color: white;" />
          </content>
