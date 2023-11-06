@@ -5,9 +5,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.AiControllerChat">
+<AnchorPane minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.AiControllerChat">
    <children>
       <Group layoutX="600.0" layoutY="-8.0">
          <children>
@@ -103,17 +104,21 @@
             </ImageView>
          </children>
       </Group>
-      <Button id="new_file" fx:id="btn_new_file" layoutX="420.0" layoutY="25.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="78.0" styleClass="btn" stylesheets="@../css/main.css" text="New File" textAlignment="CENTER" />
-      <TextField fx:id="tf_question" alignment="TOP_LEFT" layoutX="25.0" layoutY="340.0" prefHeight="46.0" prefWidth="385.0" styleClass="textfield" stylesheets="@../css/main.css" />
+      <Button id="new_file" fx:id="btn_new_file" layoutX="399.0" layoutY="25.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="99.0" styleClass="btn" stylesheets="@../css/main.css" text="New File" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <TextField fx:id="tf_question" alignment="TOP_LEFT" layoutX="25.0" layoutY="340.0" prefHeight="46.0" prefWidth="385.0" style="-fx-border-radius: 14; -fx-background-radius: 14;" styleClass="textfield" stylesheets="@../css/main.css" />
       <Button id="enviar_btn" fx:id="btn_send" layoutX="420.0" layoutY="339.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="75.0" styleClass="btn" stylesheets="@../css/main.css" text="Send" />
       <ScrollPane fx:id="" focusTraversable="false" layoutX="25.0" layoutY="63.0" prefHeight="270.0" prefWidth="470.0" stylesheets="@../css/main.css">
          <content>
-            <VBox fx:id="chat" focusTraversable="true" prefWidth="450.0" />
+            <VBox fx:id="chat" alignment="TOP_CENTER" focusTraversable="true" prefHeight="268.0" prefWidth="468.0" style="-fx-border-radius: 1000; -fx-background-color: white;" />
          </content>
       </ScrollPane>
       <Group layoutX="-1.0" layoutY="7.0">
          <children>
-            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="29.0" layoutY="1.0" prefHeight="47.0" prefWidth="129.0" style="-fx-background-color: #FFFFFF;" text="Chat" textAlignment="RIGHT">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f7f7" height="47.0" layoutX="34.0" layoutY="2.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" style="-fx-arc-height: 25; -fx-arc-width: 25;" width="124.0" />
+            <Label alignment="CENTER_RIGHT" cache="true" contentDisplay="CENTER" layoutX="29.0" layoutY="2.0" prefHeight="47.0" prefWidth="129.0" style="-fx-background-color: transparent;" text="Chat" textAlignment="RIGHT" textOverrun="CLIP">
                <font>
                   <Font size="32.0" />
                </font>
@@ -121,7 +126,7 @@
                   <Insets right="7.0" />
                </padding>
             </Label>
-            <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="32.0" layoutY="5.0">
+            <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="37.0" layoutY="4.0">
                <image>
                   <Image url="@../images/ducklogoround.png" />
                </image>

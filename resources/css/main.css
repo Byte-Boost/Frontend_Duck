@@ -80,6 +80,7 @@ buttons{
 -fx-background-color: #15DAA5;
 -fx-background-radius: 5px;
 -fx-font-size: 15;
+-fx-font-weight: 300px;
 }
 
 .smallbtn{
