@@ -8,7 +8,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.AiControllerChat">
+<AnchorPane minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.byteboost.duck.gui.AiControllerChat">
    <children>
       <Group layoutX="600.0" layoutY="-8.0">
          <children>
@@ -108,11 +108,11 @@
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
-      <TextField fx:id="tf_question" alignment="TOP_LEFT" layoutX="25.0" layoutY="340.0" prefHeight="46.0" prefWidth="385.0" style="-fx-border-radius: 14; -fx-background-radius: 14;" styleClass="textfield" stylesheets="@../css/main.css" />
+      <TextField fx:id="tf_question" alignment="TOP_LEFT" layoutX="25.0" layoutY="340.0" prefHeight="46.0" prefWidth="385.0" styleClass="textfield" stylesheets="@../css/main.css" />
       <Button id="enviar_btn" fx:id="btn_send" layoutX="420.0" layoutY="339.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="75.0" styleClass="btn" stylesheets="@../css/main.css" text="Send" />
-      <ScrollPane fx:id="" focusTraversable="false" layoutX="25.0" layoutY="63.0" prefHeight="270.0" prefWidth="470.0" stylesheets="@../css/main.css">
+      <ScrollPane fx:id="" focusTraversable="false" layoutX="25.0" layoutY="63.0" prefHeight="270.0" prefWidth="470.0" style="-fx-background-color: white;" stylesheets="@../css/main.css">
          <content>
-            <VBox fx:id="chat" alignment="TOP_CENTER" focusTraversable="true" prefHeight="268.0" prefWidth="468.0" style="-fx-border-radius: 1000; -fx-background-color: white;" />
+            <VBox fx:id="chat" focusTraversable="true" prefWidth="450.0" />
          </content>
       </ScrollPane>
       <Group layoutX="-1.0" layoutY="7.0">
